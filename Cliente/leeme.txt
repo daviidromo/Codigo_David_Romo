@@ -1,0 +1,15 @@
+Instrucciones para el despliegue de Escarlatti-Gest
+
+Para visualizar la aplicación, siga estos pasos desde una terminal en la carpeta Código fuente:
+
+Construir la imagen:
+docker build -t escarlatti-gest .
+
+Lanzar el contenedor:
+docker run -d -p 8080:80 --name app-david-romo escarlatti-gest
+
+Acceso:
+Abra el navegador en http://localhost:8080.
+
+Credenciales de prueba:
+Utilice su romo.admin y 1234, asegurándose de introducir el Zusuario: david.romo para cargar los datos correspondientes a este proyecto.
